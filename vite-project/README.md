@@ -38,6 +38,32 @@ Siga os passos abaixo para rodar a aplicação localmente:
   
 
 ```bash
-
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/Mateus-Paixao-Aulas/1178-POO-TS
 ```
+
+2.  **Navegue até a pasta do projeto:**
+
+```bash
+cd vite-project
+```
+
+
+3.  **Instale as dependências:**
+
+```bash
+npm install
+# ou
+yarn install
+```
+
+4.  **Execute o servidor de desenvolvimento:**
+
+```bash
+npm run dev
+# ou
+yarn dev
+```
+
+5.  **Acesse a aplicação no navegador:**
+
+A aplicação estará disponível em: http://localhost:5173
