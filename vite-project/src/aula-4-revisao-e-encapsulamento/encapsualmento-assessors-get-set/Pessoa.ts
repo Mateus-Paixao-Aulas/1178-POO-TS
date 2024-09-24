@@ -13,7 +13,7 @@ export class Pessoa {
     private _idade: number;
     // private nascimento: number;
     sexo?: string;
-    private cpf: string;
+    private _cpf: string;
     altura: number;
 
     constructor(nome: string,
@@ -22,7 +22,7 @@ export class Pessoa {
         altura: number){
             this.nome = nome;
             this._idade = idade;
-            this.cpf = cpf;
+            this._cpf = cpf;
             this.altura = altura;
     }
 
@@ -43,6 +43,10 @@ export class Pessoa {
     // public obterIdade() {
     //     return this.idade;
     // }
+
+    get cpf(){
+        return this._cpf;
+    }; 
 
     get idade() {
         // calculo da idade utilizando this.nascimento 

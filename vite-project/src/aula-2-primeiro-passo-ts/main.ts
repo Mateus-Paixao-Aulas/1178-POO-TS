@@ -16,7 +16,7 @@ let ativo: boolean;
 // let notas: [number, number, number];
 let notas: number[];
 let apelidos: string[];
-let info: any;
+let info: string | number | boolean;
 
 
 nota = 10;
@@ -37,6 +37,8 @@ function mostrarSoma(): void {
 const soma = mostrarSoma();
 
 console.log(notas);
+console.log(soma);
+console.log(info);
 mostrarSoma();
 
 
