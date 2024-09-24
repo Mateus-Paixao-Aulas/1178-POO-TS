@@ -1,0 +1,1 @@
+export const DESCONTO_FIXO = 10;
